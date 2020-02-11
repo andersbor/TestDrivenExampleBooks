@@ -12,13 +12,13 @@ namespace UnitTestProject1
         public void TestLegs()
         {
             Horse horse = new Horse();
-            Assert.AreEqual(horse.legs, 4);
+            Assert.AreEqual(horse.Legs, 4);
 
         }
     }
 
     internal class Horse
     {
-        public int legs { get; set; }
+        public int Legs { get; set; }
     }
 }
